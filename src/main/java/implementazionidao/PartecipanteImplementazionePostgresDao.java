@@ -233,7 +233,7 @@ public class PartecipanteImplementazionePostgresDao implements PartecipanteDAO {
                 }
             }
         } catch (SQLException e) {
-            e.printStackTrace(); // Puoi sostituirlo con una gestione più adeguata
+            e.printStackTrace();
         }
 
         return partecipanti;
